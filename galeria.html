@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Funeraria La Paz</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3498db;
+            color: rgb(241, 239, 239);
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            max-width: 200%;
+            max-height: 200px;
+            border-radius: 8px;
+            
+        }
+
+        .services {
+            margin-top: 40px;
+        }
+
+        .service-item {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Galería - Funeraria La Paz</h1>
+    </header>
+
+    <nav>
+        <a href="pginicio.html">Inicio</a>
+        <a href="pagina3.html">Servicios</a>
+        <a href="recursos.html">Recursos de Duelo</a>
+        <a href="testimonio.html">Testimonios</a>
+        <a href="galeria.html">Galería</a>
+        
+    </nav>
+
+    <section>
+        <h2>Ataúdes</h2>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="C:\Users\ederh\Desktop\pgfune\ATAUD-METALICO-CELESTIAL.jpg" alt="Ataúd 1">
+                <section>
+                <button onclick="realizarCompra()">Comprar</button>
+                </section>
+                <script>
+                    
+                    function realizarCompra() {
+                        alert('¡Gracias por su compra! Para más detalles, comuníquese con nosotros.');
+                        
+                    }
+                </script>
+                <p>El Ataúd Serenidad es una elección elegante y sobria. Fabricado con madera de alta calidad y detalles finamente trabajados, este ataúd ofrece una presencia tranquila y respetuosa. Su diseño clásico brinda un marco digno para honrar la memoria de un ser querido.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="C:\Users\ederh\Desktop\pgfune\blog12.jpg" alt="Ataúd 2">
+                <section>
+                    <button onclick="realizarCompra()">Comprar</button>
+                    </section>
+                    <script>
+                        
+                        function realizarCompra() {
+                            alert('¡Gracias por su compra! Para más detalles, comuníquese con nosotros.');
+                            
+                        }
+                    </script>
+                <p>El Ataúd Eternal es una opción moderna y distintiva. Con líneas limpias y acabados contemporáneos, este ataúd refleja una sensibilidad moderna. Fabricado con materiales duraderos, el Ataúd Eternal es una expresión única para aquellos que buscan una despedida singular y elegante.</p>
+            </div>
+
+    
+
+            <div class="gallery-item">
+                <img src="C:\Users\ederh\Desktop\pgfune\fondo.jpg" alt="Ataúd 3">
+                <section>
+                    <button onclick="realizarCompra()">Comprar</button>
+                    </section>
+                    <script>
+                        
+                        function realizarCompra() {
+                            alert('¡Gracias por su compra! Para más detalles, comuníquese con nosotros.');
+                            
+                        }
+                    </script>
+                <p>El Ataúd Celestial está diseñado para aquellos que buscan una conexión con la naturaleza. Hecho de materiales sostenibles y adornado con detalles naturales, este ataúd rinde homenaje a la belleza de la vida. Sus tonos suaves y acabados artesanales crean un ambiente apacible y armonioso.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Servicios</h2>
+
+        <div class="service-item">
+            <h3>Cremación</h3>
+            <p>La cremación es un servicio que proporciona una alternativa respetuosa y personalizada al entierro tradicional. Durante este proceso, el cuerpo se somete a altas temperaturas, reduciéndose a cenizas cremadas. Ofrecemos diversos paquetes que incluyen ceremonias conmemorativas y opciones para la disposición final de las cenizas, como urnas conmemorativas o su esparcimiento en lugares significativos.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>Entierro</h3>
+            <p>Nuestro servicio de entierro brinda a las familias la opción de un servicio funerario tradicional con sepultura en cementerio. Ofrecemos ataúdes de alta calidad y una variedad de opciones para la ceremonia, que pueden incluir un servicio religioso, palabras de despedida y música conmemorativa. Trabajamos estrechamente con las familias para personalizar el entierro de acuerdo con sus preferencias y creencias.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>Flores</h3>
+            <p>Nuestras opciones florales están diseñadas para brindar consuelo y expresar afecto durante momentos difíciles. Ofrecemos arreglos florales que pueden utilizarse para decorar el lugar del servicio funerario, el ataúd o simplemente como un gesto simbólico de condolencias. Los arreglos florales pueden personalizarse según los gustos y preferencias individuales, proporcionando un toque de belleza y calidez durante el servicio conmemorativo.</p>
+        </div>
+
+        <!-- Agrega más elementos de servicios según sea necesario -->
+    </section>
+
+    <footer>
+        <p>© 2023 Funeraria La Paz | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonios - Funeraria La Paz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3498db;
+            color: rgb(241, 239, 239);
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .testimonial-form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .form-group button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Testimonios - Funeraria La Paz</h1>
+    </header>
+
+    <nav>
+        <a href="pginicio.html">Inicio</a>
+        <a href="pagina3.html">Servicios</a>
+        <a href="recursos.html">Recursos de Duelo</a>
+        <a href="testimonio.html">Testimonios</a>
+        <a href="prevension.html">prevencion</a>
+        <a href="galeria.html">Galería</a>
+        <!-- Agrega otros enlaces según sea necesario -->
+    </nav>
+
+    <section>
+        <h2>Comparte tu Testimonio</h2>
+
+        <div class="testimonial-form">
+            <form action="procesar_testimonio.php" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="testimonio">Testimonio:</label>
+                    <textarea id="testimonio" name="testimonio" rows="4" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Enviar Testimonio</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Mostrar testimonios existentes aquí -->
+    </section>
+
+    <footer>
+        <p>© 2023 Funeraria La Paz | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
